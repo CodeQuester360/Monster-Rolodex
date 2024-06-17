@@ -1,0 +1,13 @@
+.card-list {
+  width: 85vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(
+    4,
+    1fr
+  ); /* Changed to use repeat() for clarity */
+  grid-gap: 20px;
+}
+
+
+
